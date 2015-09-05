@@ -93,16 +93,16 @@
 				${pageModel.currentPage}页 , 共<%=pageModel.getTotalpages()%> 页
 				共${pageModel.totalCount}条记录&nbsp;&nbsp; <a
 				href="myNews?state=${state}&currentPage=<%=pageModel.getFirstPage()%>&size=${
-				pageMode.size }">首页</a>
+				pageModel.size }">首页</a>
 				<a
 				href="myNews?state=${state}&currentPage=<%=pageModel.getPrePage()%>&size=${
-				pageMode.size }">上一页</a>
+				pageModel.size }">上一页</a>
 				<a
 				href="myNews?state=${state}&currentPage=<%=pageModel.getNextPage()%>&size=${
-				pageMode.size }">下一页</a>
+				pageModel.size }">下一页</a>
 				<a
 				href="myNews?state=${state}&currentPage=<%=pageModel.getLastPage()%>&size=${
-				pageMode.size }">末页</a>
+				pageModel.size }">末页</a>
 			</td>
 		</tr>
 
